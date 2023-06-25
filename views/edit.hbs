@@ -1,4 +1,4 @@
-<form action="/todos/{{ todo._id }}?_method=PUT" method="POST" style="display: inline;">
+<form action="/todos/{{ todo.id }}?_method=PUT" method="POST" style="display: inline;">
   <div class="input-group">
     <div class="input-group-text">
       <input type="checkbox" class="form-check-input mt-0" name="isDone" {{#if todo.isDone }} checked {{/if}}> 
